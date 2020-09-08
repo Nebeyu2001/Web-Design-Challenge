@@ -1,0 +1,83 @@
+body {
+    background-color:lightgrey;
+
+}
+
+
+
+#image-plot{
+    float: left;
+    height: 170px;
+    width: 200px;
+    margin-right:10px;
+}
+
+#vis-plot {
+        display:inline-block;
+        width: 130px;
+        height: 180px;
+        Padding:10px;
+}
+
+#main-image {
+    display:block;
+    width: 380px;
+    height: 400px;
+    Padding:10px;
+
+}
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.classWithPad { 
+    margin:10px; 
+    padding:10px; 
+    background-color: white;}
+
+    h1, h2, h3 {
+        color: #0BACA6;
+    }
+
+#comparision-con{
+    background-color: white;
+}
+@media only screen and (max-width: 720px) {
+    
+    body {
+      background-color:lightgray;
+    }
+
+    #main-image {
+        display: inline;
+        width: 420px;
+        height: 300px;
+        Padding:10px;
+
+    #vis-plot {
+        float:left;
+        width: 65px;
+        height: 100px;
+        padding:10px;
+        
+    }
